@@ -1,0 +1,5 @@
+﻿  math_vector.cpp
+C:\Users\pc\Desktop\Math_Vector\Math_Vector\Math_Vector.h(42,27): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "math_vector.cpp")
+  
+  Math_Vector.vcxproj -> C:\Users\pc\Desktop\Math_Vector\x64\Debug\Math_Vector.exe
