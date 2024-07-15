@@ -1,14 +1,16 @@
 ﻿#include <iostream>
 #include "Math_Vector.h"
 
-int main() {
-	Math_Vector m_v1{ 0, 0 };
-	Math_Vector m_v2{ 3, 4 };
 
-	Math_Vector res_sum = m_v1 + m_v2;
-	Math_Vector res_dif = m_v1 - m_v2;
+
+int main() {
+	Math_Vector<double> m_v1{ 1, 5 };
+	Math_Vector<double> m_v2{ 3, 4 };
+
+	Math_Vector<double> res_sum = m_v1 + m_v2;
+	Math_Vector<double> res_dif = m_v1 - m_v2;
 	int res_scalar = m_v1 * m_v2;
-	Math_Vector res_lambda = m_v1 * 4;
+	Math_Vector<double> res_lambda = m_v1 * 4;
 
 	std::cout << "The first vector: " << m_v1 << std::endl;
 	std::cout << "The second vector: " << m_v2 << std::endl;
@@ -22,11 +24,15 @@ int main() {
 	std::cout << Length(m_v2) << std::endl;*/
 	//std::cout << m_v1.Length() << std::endl;
 
-	//что-то пишу для гит хаба
-	//попытка номер 2
-	//что-то ещеM 
-	 
-	//тестовый комментарий
+	//код тела main до шаблонов
+
+	/*Math_Vector m_v1{ 0, 0 };
+	Math_Vector m_v2{ 3, 4 };
+
+	Math_Vector res_sum = m_v1 + m_v2;
+	Math_Vector res_dif = m_v1 - m_v2;
+	int res_scalar = m_v1 * m_v2;
+	Math_Vector res_lambda = m_v1 * 4;*/
 
 	return 0;
 }
